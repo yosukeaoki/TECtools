@@ -17,20 +17,6 @@ A fortran program to read a RINEX3 file to obtain Slant Total Electron Content (
 
   e.g., rdrnx3 TSKB0010.22o G 3.0 8.0 >! STEC_GPS.dat
   
-## rdrnx.f 
-
-A fortran program to read a RINEX2 file to obtain Slant Total Electron Content (STEC). Originally written by Prof. Kosuke Heki (Hokkaido University) for RINEX2 files. 
-
-### Compilation 
-
-% gfortran -o rdrnx rdrnx.f
-
-### Usage 
-
-% rdrnx < [RINEX file} >! [Output file]
-
-  e.g., rdrnx TSKB0010.220 >! STEC.dat
-
 ## rdeph3.f 
 
 A fortran program to read a RINEX3 navigation file to obtain the satellite orbit. Originally written by Prof. Kosuke Heki (Hokkaido University) for RINEX2 files. 
